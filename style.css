@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body {
+  background-image: url("media/sfondo-rovere-scuro.jpg");
+  position: relative;
+}
+
+.container {
+  margin: auto;
+  max-width: 1600px;
+  height: 3000px; /* Ricordarsi di rivedere alla fine l'altezza e mettere 100%*/
+  background-color: white; /* Ricordarsi di togliere il colore */
+}
+
+/* Regole dell'header */
+header {
+  background-color: red; /* Ricordarsi di togliere il colore */
+  width: 1600px;
+  height: 680px;
+  position: relative;
+}
+.img {
+  background-image: url("media/wood.jpg");
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1600px;
+  height: 480px;
+  border: solid 10px #fff;
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Oswald', sans-serif;
+  font-size: 150px;
+  color: #ffffff;
+  text-shadow: 4px 4px #000000;
+}
+/* Regole del menu */
+nav {
+  width: 1600px;
+  height: 100px;
+  background-color: #616161;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.cont-menu {
+  text-align: center;
+}
+.cont-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.cont-menu li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  display: inline-block;
+  padding: 38px 40px;
+}
+.cont-menu a {
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 0.5px 0.5px #000000;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0 20px;
+}
+.cont-menu a:hover {
+    color: #90A4AE;
+  }
