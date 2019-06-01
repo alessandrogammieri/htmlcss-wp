@@ -10,7 +10,7 @@ body {
   background-image: url("media/sfondo-rovere-scuro.jpg");
   position: relative;
 }
-
+/* Regole del Contenitore di tutti i nostri elementi */
 .container {
   margin: auto;
   max-width: 1600px;
@@ -22,7 +22,7 @@ header {
   height: 680px;
   position: relative;
 }
-.img {
+.img-header {
   background-image: url("media/wood.jpg");
   position: absolute;
   top: 50%;
@@ -30,7 +30,7 @@ header {
   transform: translate(-50%, -50%);
   width: 1600px;
   height: 480px;
-  border: solid 10px #fff;
+  border: solid 10px #ffffff;
 }
 h1 {
   position: absolute;
@@ -97,15 +97,34 @@ main::after {
   display: table;
   clear: both;
 }
-/* Regole della sidebar sinistra (navsx) */
+/* Regole della Sidebar sinistra (navsx) */
 .navsx {
-  height: 800px;
+  height: 830px;
   float: left;
   width: 20%;
   position: relative;
   background-color: #ffffff;
   border: 3px solid lightgrey;
   border-radius: 10px;
+}
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 38px;
+  color: #6D4C41;
+  margin: 40px 0 60px 90px;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 8%;
+  left: 10%;
+}
+.text-nav {
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+  color: #388E3C;
+  margin: 30px 30px;
 }
 /* Regole Sezione della nostra pagina (section) */
 section {
@@ -118,6 +137,21 @@ section {
   margin-right: 5%;
   border: 3px solid lightgrey;
   border-radius: 10px;
+}
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+  color: #6D4C41;
+  text-shadow: 1px 1px #000000;
+  text-transform: uppercase;
+  margin: 40px 0 60px 30px;
+}
+.text {
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+  color: #000000;
+  line-height: 1.6;
+  margin: 0 30px;
 }
 /* Regole Widget della nostra pagina (aside) */
 aside {
@@ -134,7 +168,12 @@ aside {
   border: 3px solid lightgrey;
   border-radius: 10px;
 }
-
+.text-widget {
+  font-family: 'Oswald', sans-serif;
+  font-size: 38px;
+  color: #6D4C41;
+  margin: 40px 0 60px 30px;
+}
 /* Regole Footer della nostra pagina (footer) */
 footer {
   width: 1600px;
