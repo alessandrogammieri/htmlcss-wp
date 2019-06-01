@@ -14,13 +14,10 @@ body {
 .container {
   margin: auto;
   max-width: 1600px;
-  height: 3000px; /* Ricordarsi di rivedere alla fine l'altezza e mettere 100%*/
-  background-color: white; /* Ricordarsi di togliere il colore */
 }
 
-/* Regole dell'header */
+/* Regole dell'header (header) */
 header {
-  background-color: red; /* Ricordarsi di togliere il colore */
   width: 1600px;
   height: 680px;
   position: relative;
@@ -45,7 +42,17 @@ h1 {
   color: #ffffff;
   text-shadow: 4px 4px #000000;
 }
-/* Regole del menu */
+h2 {
+position: absolute;
+bottom: 25%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-family: 'Oswald', sans-serif;
+font-size: 50px;
+color: #ffffff;
+text-shadow: 4px 4px #000000;
+}
+/* Regole del menu (nav) */
 nav {
   width: 1600px;
   height: 100px;
@@ -80,3 +87,64 @@ nav {
 .cont-menu a:hover {
     color: #90A4AE;
   }
+
+/* Regole del Corpo della nostra pagina (main) */
+main {
+  margin-top: 30px;
+}
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Regole della sidebar sinistra (navsx) */
+.navsx {
+  height: 800px;
+  float: left;
+  width: 20%;
+  position: relative;
+  background-color: #ffffff;
+  border: 3px solid lightgrey;
+  border-radius: 10px;
+}
+/* Regole Sezione della nostra pagina (section) */
+section {
+  height: 600px;
+  float: left;
+  width: 50%;
+  position: relative;
+  background-color: #ffffff;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 3px solid lightgrey;
+  border-radius: 10px;
+}
+/* Regole Widget della nostra pagina (aside) */
+aside {
+  height: 1500px;
+  float: right;
+  width: 20%;
+  position: relative;
+}
+.widget {
+  background-color: #ffffff;
+  height: 450px;
+  width: 100%;
+  margin-bottom: 50px;
+  border: 3px solid lightgrey;
+  border-radius: 10px;
+}
+
+/* Regole Footer della nostra pagina (footer) */
+footer {
+  width: 1600px;
+  height: 380px;
+  position: relative;
+  background-color: #ffffff;
+  border: 3px solid lightgrey;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+#contact {
+
+}
