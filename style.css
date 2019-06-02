@@ -8,7 +8,6 @@
 
 body {
   background-image: url("media/sfondo-rovere-scuro.jpg");
-  position: relative;
 }
 /* Regole del Contenitore di tutti i nostri elementi */
 .container {
@@ -131,7 +130,6 @@ section {
   height: 600px;
   float: left;
   width: 50%;
-  position: relative;
   background-color: #ffffff;
   margin-left: 5%;
   margin-right: 5%;
@@ -158,7 +156,6 @@ aside {
   height: 1500px;
   float: right;
   width: 20%;
-  position: relative;
 }
 .widget {
   background-color: #ffffff;
@@ -175,7 +172,7 @@ aside {
   margin: 40px 0 60px 30px;
 }
 /* Regole Footer della nostra pagina (footer) */
-footer {
+footer #contact {
   width: 1600px;
   height: 380px;
   position: relative;
@@ -184,6 +181,24 @@ footer {
   border-radius: 10px;
   margin-bottom: 100px;
 }
-#contact {
-
+.text-footer {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  color: #263238;
+}
+hr {
+  color: #263238;
+  margin-top: 140px;
+}
+.icon-footer {
+  display: inline-block;
+}
+.img-footer {
+  width: 60px;
+  height: 60px;
+  margin: 80px 230px 0 230px;
 }
